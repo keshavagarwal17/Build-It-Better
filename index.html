@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="./assets/favicon.ico">
+    <title>Marvel and DC Universe</title>
+</head>
+<body>
+    <nav>
+        <h2>Marvels</h2>
+        <div>
+            <ul>
+                <li  class="active-link"><a href="">Home</a></li>
+                <li><a href="./hero.html">Heroes</a></li>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="Loader">
+        <img src="./assets/loading.gif" alt="">
+    </div>
+    <div class="content">
+        <div class="container-1">
+            <div>
+                <h3>Welcome To the world of Super Heroes.</h3>
+                <button>Meet Heroes</button>
+            </div>
+            <img class="superhero-img" src="./assets/super_heroes.png" alt="">
+        </div>
+        <div class="container-2">
+            <div>
+                Choose the character which you like the most <br/> and you will get his power
+            </div>
+            <div class="sub-container2-1">
+                <div>
+                    <div class="char-img-par-div">
+                        <img class="character-img" src="./assets/icons/groot_icon.png" alt="">
+                        <div class="middle">
+                            Groot
+                        </div>
+                    </div>
+                    <button class="open-modal">Pick</button>
+                </div>
+                <div>
+                    <div class="char-img-par-div">
+                        <img class="character-img" src="./assets/icons/hawkeye_icon.png" alt="">
+                        <div class="middle">
+                            Hawkeye
+                        </div>
+                    </div>
+                    <button class="open-modal">Pick</button>
+                </div>
+                <div>
+                    <div class="char-img-par-div">
+                        <img class="character-img" src="./assets/icons/strange_icon.png" alt="">
+                        <div class="middle">
+                            Strange
+                        </div>
+                    </div>
+                    <button class="open-modal">Pick</button>
+                </div>
+                <div>
+                    <div class="char-img-par-div">
+                        <img class="character-img" src="./assets/icons/thor_icon.png" alt="">
+                        <div class="middle">
+                            Thor
+                        </div>
+                    </div>
+                    <button class="open-modal">Pick</button>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div id="myModal" class="modal">
+    
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="modal-msg">
+    
+                </div>
+            </div>
+    
+        </div>
+    </div>
+<script src="./main.js"></script>
+</body>
+</html>
