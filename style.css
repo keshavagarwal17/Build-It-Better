@@ -185,12 +185,17 @@ button{
     /* flex-direction: column; */
     font-size: 17px;
     margin: 20px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #323232;
 }
 .hero-container-1 .character-description,.hero-container-1 h1{
     margin: 0 20px;
 }
 .hero-container-1 h1{
     font-size: 23px;
+    margin: 15px 20px;
+}
+.hero-container-1 .character-description{
     margin-bottom: 15px;
 }
 .hero-container-1 img{
@@ -218,6 +223,7 @@ button{
     border-radius: 20px;
     height: 300px;
     margin-right: 70px;
+    margin-bottom: 30px;
 }
 .social a{
     text-decoration: none;
@@ -248,7 +254,8 @@ button{
     .sub-container2-1{
         flex-direction: column;
     }
-    .hero-container-1{
+    .hero-container-1,.about{
         flex-direction: column;
     }
+
   }
